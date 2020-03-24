@@ -1,0 +1,21 @@
+{
+  "name": "tarea",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc",
+    "dev": "ts-node-dev --respawn --transpileOnly ./app/app.ts"
+  },
+  "author": "Margorie",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node-dev": "^1.0.0-pre.44",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "@types/mongoose": "^5.7.7",
+    "mongoose": "^5.9.6"
+  }
+}
